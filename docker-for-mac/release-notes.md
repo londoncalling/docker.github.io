@@ -145,17 +145,22 @@ events or unexpected unmounts.
 
 ## Beta Release Notes
 
-### Beta 28 Release Notes (2016-10-11 1.12.2-rc3-beta28)
+### Beta 28 Release Notes (2016-10-13 1.12.2-rc3-beta28)
 
 ### 1.12.2-rc3-beta28 "Beta28" (unreleased)
 
 **Upgrades**
 
-Docker 1.12.2-rc3
+- Docker 1.12.2
+- Kernel 4.4.24
+- Notary 0.4.2
 
 **Bug fixes and minor changes**
-<!-- TBD -->
 
+- Fixed an issue where Docker for Mac was incorrectly reported as updated
+- osxfs: Fixed race condition causing some reads to run forever
+- Channel is now displayed in About box
+- Crash reports are sent over Bugsnag rather than HockeyApp
 
 ### Beta 27 Release Notes (2016-09-28 1.12.2-rc1-beta27)
 

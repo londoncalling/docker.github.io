@@ -132,7 +132,7 @@ Release notes for _stable_ and _beta_ releases are listed below. You can learn a
 
 ## Beta Release Notes
 
-### Beta 28 Release Notes (2016-10-11 1.12.2-rc3-beta28)
+### Beta 28 Release Notes (2016-10-13 1.12.2-rc3-beta28)
 
 >**Important Note**:
 >
@@ -151,13 +151,16 @@ work. Some insider builds may not work.
 
 - Path to HyperV disks in no longer hardcoded, making the Toolbox import work with non-standard path
 - Verify that ALL HyperV features are enabled
-- Make is clear why user cannot switch to Windows Containers with a tooltip in the systray
+- Make it clear why user cannot switch to Windows Containers with a tooltip in the systray
 - Added Moby console to the logs
 - Save the current engine with the other settings
+- Notary version 0.4.2 installed
 
 
 **Upgrades**
-<!--TBD-->
+
+- Docker 1.12.2
+- Kernel 4.4.24
 
 **Bug fixes and minor changes**
 
